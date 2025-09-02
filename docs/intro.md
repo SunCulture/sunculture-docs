@@ -1,47 +1,80 @@
 ---
 sidebar_position: 1
+title: Getting Started
 ---
 
-# Tutorial Intro
+# Getting Started with SunCulture Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the SunCulture technical documentation portal. This comprehensive resource provides detailed information about our applications, APIs, and development processes.
 
-## Getting Started
+## Available Applications
 
-Get started by **creating a new site**.
+### AMT Backend (Production)
+Our Account Management Tool backend is a comprehensive TypeScript-based API server that handles:
+- Customer account lifecycle management
+- Payment processing and reconciliation
+- Product catalog and inventory
+- Commission calculations
+- KYC verification
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**Quick Links:**
+- [AMT Introduction](./amt/intro)
+- [Getting Started Guide](./amt/getting-started)
+- [API Reference](./amt/api-reference)
+- [Architecture Overview](./amt/architecture)
 
-### What you'll need
+### Coming Soon Applications
+We're continuously expanding our documentation to cover:
+- **360 Platform** - Frontend application for internal operations
+- **FMA (Field Management App)** - Mobile app for field agents
+- **Customer Portal** - Self-service customer management
+- **M-Pesa Integration** - Payment gateway services
+- **Sales Portal** - Sales team management system
+- **IoT Platform** - Device monitoring and management
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Documentation Structure
 
-## Generate a new site
+Each application documentation includes:
 
-Generate a new Docusaurus site using the **classic template**.
+### 📖 **Introduction**
+Overview of the application, key features, and business context
 
-The classic template will automatically be added to your project after you run the command:
+### 🚀 **Getting Started**
+Setup instructions, prerequisites, and basic configuration
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### 🏗️ **Architecture**
+System design, components, and architectural patterns
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### 📡 **API Reference**
+Complete endpoint documentation with examples
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### 🗃️ **Database**
+Schema documentation and data models
 
-## Start your site
+### 🚀 **Deployment**
+Production deployment guides and best practices
 
-Run the development server:
+## How to Use This Documentation
 
-```bash
-cd my-website
-npm run start
-```
+1. **Browse Applications**: Use the sidebar to navigate between different applications
+2. **Search**: Use the search bar to find specific topics quickly
+3. **Code Examples**: Copy and paste ready-to-use code snippets
+4. **API Testing**: Try endpoints directly from the documentation
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Need Help?
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+- **Technical Issues**: Contact the development team
+- **Documentation Updates**: Submit pull requests to our GitHub repository
+- **Feature Requests**: Create issues in the respective application repositories
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Contributing
+
+This documentation is maintained by the SunCulture development team. We welcome contributions:
+
+1. Fork the [documentation repository](https://github.com/SunCulture/sunculture-docs)
+2. Make your changes
+3. Submit a pull request
+
+---
+
+**Next Steps**: Start with the [AMT Backend documentation](./amt/intro) to explore our most comprehensive API platform.
