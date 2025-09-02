@@ -1,0 +1,67 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.applications {
+  padding: 4rem 0;
+}
+
+.applicationCard {
+  margin-bottom: 2rem;
+}
+
+.applicationCard .card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.applicationCard .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.quickLinks {
+  padding: 3rem 0;
+  background-color: var(--ifm-background-surface-color);
+}
+
+.quickLinks ul {
+  margin-top: 1rem;
+}
+
+.quickLinks li {
+  padding: 0.5rem 0;
+}
+
+.quickLinks a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.quickLinks a:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: underline;
+}
